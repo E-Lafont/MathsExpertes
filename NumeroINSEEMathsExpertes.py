@@ -6,7 +6,7 @@ num = "285078618304815" #Defines a code.
 A = int(num[:-2]) #All numbers without the two last.
 K = int(num[-2:]) #The two last numbers -> the key.
 print("Verifying if the code works...")
-print("Result :", verify(K, A)) #Just to verify if the num has no error.
+print("Result :", verify(K, A)) #Verifies if the num has no error.
 print("Now we will test if we change a number.")
 for j in "0123456789": #Tests with all the numbers.
     for i in range(len(num)-2): #For all numbers except the key. 
